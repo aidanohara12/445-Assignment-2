@@ -1,0 +1,43 @@
+0 pushed to sequence
+2 pushed to sequence
+4 pushed to sequence
+6 pushed to sequence
+8 pushed to sequence
+Sequence size is: 5
+8 popped from sequence
+6 popped from sequence
+4 popped from sequence
+2 popped from sequence
+0 popped from sequence
+Nothing in the sequence
+Adding Item 0
+Adding Item 1
+Removing Item 1
+Adding Item 2
+Removing Item 2
+Adding Item 3
+Removing Item 3
+Adding Item 4
+Removing Item 4
+Adding Item 5
+Removing Item 5
+Adding Item 6
+Removing Item 6
+Adding Item 7
+Removing Item 7
+Adding Item 8
+Removing Item 8
+1 item(s) in the sequence.
+The letter 'd' appeared 1 time(s)
+The character '!' appeared 1 time(s)
+The character 'j' appeared 0 time(s)
+The letter 'r' appeared 5 time(s)
+The srting "re" appeared 3 time(s)
+The letters following 'r' are [u, e, i]
+The letters following 'j' are null
+First item is: 0
+Last item is: 5
+The size of the sequence is 400004
+The frequency of(4, 4) in the sequence is 99999
+The successors of 4 in the sequence are [0, 4, 5]
+The first 12 items in the sequence are: 000704010445
