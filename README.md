@@ -1,12 +1,6 @@
 # CS 0445 – Algorithms and Data Structures 1 – Assignment#2 [^1]
 
-**Due: Friday October 20th @ 11:59pm**
 
-You should submit the file `LinkedDS.java` to GradeScope (the link is on
-Canvas). You must also submit an Assignment Information Sheet `InfoSheet.md` as described in the Submission
-Requirements section below.
-
-**Late submission: Sunday October 22nd @11:59pm with 10% penalty per late day**
 
 ## TABLE OF CONTENTS
 
