@@ -5,17 +5,15 @@ every assignment. Also be sure to submit all materials
 following the procedures described in the assignment
 description.
 
-Name: ______________________________
+Name: Aidan O'Hara
 
-Assignment #: ______________
+Assignment #: 2
 
 Source code (.java) file name(s):
 
-_________________________________________________________
+LinkedDS.java
 
-_________________________________________________________
-
-Does your program compile without errors?: _____________
+Does your program compile without errors?: yes
 
 If not, what is/are the error(s)?:
 
@@ -25,7 +23,7 @@ _________________________________________________________
 
 _________________________________________________________
 
-Does your program run without errors?: _____________
+Does your program run without errors?: yes
 
 If not, what is/are the error(s) and which parts of your
 program run correctly?:
