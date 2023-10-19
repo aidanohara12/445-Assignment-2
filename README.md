@@ -6,14 +6,12 @@
 
 - [Overview](#overview)
 - [Details](#Details)
-- [Submission Requirements](#submission-requirements)
-- [Rubrics](#rubrics)
 
 ## OVERVIEW
 
-**Purpose:** To emphasize the object-oriented programming approach used in Java, and to practice working with linked lists. Specifically, you will work with control structures, class-building, interfaces and generics to create and utilize a linked data structure `LinkedDS<T>` that will act as a data structure for sequences of Java Objects. Your `LinkedDS<T>` class will primarily implement the interface `SequenceInterface<T>`. The details of the interface are explained in the file SequenceInterface.java. Read these files over very carefully before implementing `LinkedDS<T>`.
+**Purpose:** To emphasize the object-oriented programming approach used in Java, and to practice working with linked lists. Specifically, you will work with control structures, class-building, interfaces and generics to create and utilize a linked data structure `LinkedDS<T>` that will act as a data structure for sequences of Java Objects. Your `LinkedDS<T>` class will primarily implement the interface `SequenceInterface<T>`. The details of the interface are explained in the file SequenceInterface.java.
 
-[^1]: Some text adapted from Dr. John Ramirez’s CS 0445 class.
+
 
 
 ## Details
