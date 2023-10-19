@@ -27,38 +27,6 @@ recommended before actually starting to write your code. Your `LinkedDS<T>` clas
 
 `public class LinkedDS<T> implements SequenceInterface<T> {`
 
-**Important Note: The primary data within `LinkedDS<T>` class *must be* a one-dimensional
-array of _linked lists_. You may not use any predefined Java collection class (e.g., `ArrayList`) for your `LinkedDS<T>` data
-fields. You may not declare any one-dimensional arrays except for the alphabet and for the return value of any of the methods that return an array**.
-
-You must use the following instance variables inside the `LinkedDS<T>` class:
-
-```java
-private Node[] array; //1-D array of linked lists
-private int size; //the number of items in the sequence
-private T[] alphabet; //the possible item values (e.g., the decimal digits)
-private T firstItem; //the first item
-private T lastItem; //the last item
-```
-You should define the inner `Node` class as below and add other variables and named constants to follow the secure programming practices we mentioned in class.
-
-```java
-private static class Node {
-    private int item; //index in alphabet of item
-    private Node next;
-
-    private Node(int item){
-        this.item = item;
-        next = null;
-    }
-}
-```
-
-Besides the methods of `SequenceInterface<T>`, the following constructor is required:
-
-```java
-public LinkedDS(T[] alphabet)
-```
 
 To illustrate how to store a sequence of objects as a one-dimensional array of linked lists, let's have an example.
 
@@ -105,37 +73,4 @@ getFrequencyOf(7, 3) == 2 //73 appeared twice in the sequence
 successors(7) == {9, 5, 3} //9, 5, and 3 are the unique items that immediately follow 7 in the sequence
 ```
 
-After you have finished coding of `LinkedDS<T>`, the `A2Test.java` file provided for you should compile and run correctly and should give output identical to the output shown in the file `A2Out.txt`. Please note that this statement doesn't suggest that you delay testing until you are done with all the methods of `LinkedDS`. Instead, you should use stubs and incrementally test your code using `A2Test.java` as you code up each of the methods.
 
-
-## SUBMISSION REQUIREMENTS
-
-The only source file that you can change is:
-
-1. `LinkedDS.java`
-
-You must submit the above file together with an edited version of `InfoSheet.md`.
-
-The idea from your submission is that the autograder can compile and run A2Test **from the command line** WITHOUT ANY additional files or changes, so be
-sure to test them thoroughly before submitting it.
-
-**Note: If you use an IDE such as NetBeans, Eclipse, or IntelliJ, to develop your programs, make sure
-they will compile and run on the command line before submitting – this may require some
-modifications to your program (such as removing some package information).**
-
-
-## RUBRICS
-
-Please note that if an autograder is available, its score will be used as a guidance for the TA, not as an official final score. Please also note that the autograder rubrics are the definitive rubrics for the assignment. The rubrics below will be used by the TA to assign partial credit in case your code scored less than 40% of the autograder score. If your code is manually graded for partial credit, the maximum you can get for the autograded part is 60%.
-
-| Item | Grade |
-|------|-------|
-|Constructor| 7|
-|push() and pop() | 17 |
-| size(), isEmpty(), first(), last() | 17 |
-| The two versions of getFrequencyOf() | 17 |
-| successors | 17 |
-| Efficiency (meeting the running time specification) | 15 |
-|-----|-----|
-|Assignment Information Sheet and correct submission | 5 |
-| javadoc comments and coding style (check Appendix A)  | 5 |
